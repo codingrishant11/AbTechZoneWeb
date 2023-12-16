@@ -1,0 +1,71 @@
+
+.objectives .row{
+    margin: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.objectives .row .col{
+    margin: auto;
+    background-color: #f6f4f9;
+    border-radius: 20px;
+    flex-basis: 45%;
+    min-width: 350px;
+    object-fit: cover;
+}
+.objectives .row .col-7 .rotate{
+    margin: auto;
+    background-color: #2865cd;
+    color: #f6f4f9;
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(50deg);
+    border-radius: 30px;
+    width: 100px;
+    height: 100px;
+}
+.objectives .row .col-7 .rotate img{
+    position: absolute;
+    width: 70%;
+    transform: rotate(-50deg);
+}
+.objectives .row .col-7:hover{
+    background-color: #5500ff;
+    color: white;
+    transition: 1s;
+}
+.objectives .row .col-7:hover .rotate {
+    background-color: rgb(249, 169, 22);
+    transform: rotate(100deg);
+    transition:0.5s ;
+}
+.objectives .row .col-7:hover .rotate img{
+    transform: rotate(-100deg);
+    transition: 0.5s;
+}
+
+.objectives .row .col-5{
+    background: none;
+}
+
+
+.footer{
+    border-radius: 50px;
+    background-color: #5500ff;
+    color: white;
+  }
+
+  .footer .container .row .col-md-3 .btn-link{
+    color: white;
+    text-decoration: none;
+    display: block;
+  }
+  .footer .container .row .col-md-3 .btn-link:hover{
+    color: rgb(249, 169, 22);
+    font-size: 18px;
+    transition: 0.5s;
+  }
+  

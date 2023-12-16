@@ -1,0 +1,70 @@
+  .row{
+    padding: 20px;
+    margin-top: 50px;
+    
+  }
+  .row .col-6 .h6{
+    color:rgb(249, 169, 22);
+  }
+  .row .col-6 .h2{
+    word-spacing: 5px;
+  }
+  .row .col-6{
+    overflow: hidden;
+    flex-basis: 50%;
+    min-width: 500px;
+    object-fit: cover;
+
+  }
+  .row .col-6 .btn{
+    width: 30%;
+    height: 50px;
+    border-radius: 100px;
+    font-weight: 550;
+    color: white;
+    background-color: #5500ff;
+  }
+  .row .col-6 .btn:hover{
+    background-color: rgb(249, 169, 22);
+    color: black;
+    box-shadow: 2px 2px 10px   black;
+    transition: 0.5s;
+  } 
+  .abc{
+    margin: 0;
+    border-radius: 100px;
+    background-color: #5500ff;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .abc .col-4{
+    margin: auto;
+    border-radius: 20px;
+    flex-basis: 33%;
+    min-width: 350px;
+    object-fit: cover;
+  }
+  .abc .col .card:hover{
+    background-color: rgb(249, 169, 22);
+    transition: 0.7s;
+  }
+
+  .footer{
+    border-radius: 100px;
+    background-color: #5500ff;
+    color: white;
+  }
+
+  .footer .container .row .col-md-3 .btn-link{
+    color: white;
+    text-decoration: none;
+    display: block;
+  }
+  .footer .container .row .col-md-3 .btn-link:hover{
+    color: rgb(249, 169, 22);
+    font-size: 18px;
+    transition: 0.5s;
+  }

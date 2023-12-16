@@ -1,0 +1,68 @@
+body {
+    margin: auto;
+    font-family: 'Arial', sans-serif;
+    background-color: #f6f4f9;
+}
+
+.aaa {
+    margin: auto;
+    width: 90%;
+    background-color: white;
+}
+
+img {
+    width: 100%;
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: #000;
+    font-weight: 550;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: rgb(249, 169, 22);
+    text-shadow: 0 0 5px black;
+    transition: 0.4s;
+}
+
+.about {
+    border-radius: 50px;
+    background-color: #5500ff;
+    margin: auto;
+    height: 20vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.about:hover {
+    color: rgb(249, 169, 22);
+    transition: 0.5s;
+    text-shadow: 0 3px 10px black;
+}
+.footer{
+    border-radius: 50px;
+    color: white;
+    background-color: #5500ff;
+}
+.footer .container .row .col-md-4 .btn{
+    display: block;
+    color: white;
+    text-align: left;
+    
+}
+.footer .container .row .col-md-4 .d-flex .btn:hover{
+    background-color: rgb(249, 169, 22);
+    transition: 0.4s;
+}
+.footer .container .row .col-md-4 .btn-link:hover{
+    color: rgb(249, 169, 22);
+    font-size: 18px;
+    transition: 0.5s;
+  }

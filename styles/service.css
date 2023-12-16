@@ -1,0 +1,47 @@
+.serve .row{
+    margin: 0;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.serve .row .col-4{
+    background-color: #f6f4f9;
+    border-radius: 20px;
+    flex-basis: 32%;
+    min-width: 350px;
+    min-height: 450px;
+    object-fit: cover;
+}
+.serve .row .col-4 .rotate{
+    margin: auto;
+    background-color: #2865cd;
+    color: #f6f4f9;
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(50deg);
+    border-radius: 30px;
+    width: 100px;
+    height: 100px;
+}
+.serve .row .col-4 .rotate img{
+    position: absolute;
+    width: 70%;
+    transform: rotate(-50deg);
+}
+.serve .row .col-4:hover{
+    background-color: #5500ff;
+    color: white;
+    transition: 1s;
+}
+.serve .row .col-4:hover .rotate {
+    background-color: rgb(249, 169, 22);
+    transform: rotate(100deg);
+    transition:0.5s ;
+}
+.serve .row .col-4:hover .rotate img{
+    transform: rotate(-100deg);
+    transition: 0.5s;
+}
