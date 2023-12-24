@@ -123,8 +123,8 @@ a {
 
 .col-2 {
     overflow: hidden;
-    flex-basis: 50%;
-    min-width: 400px;
+    flex-basis: 45%;
+    min-width: 380px;
     object-fit: cover;
 }
 img{
