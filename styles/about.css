@@ -12,7 +12,7 @@
   .row .col-6{
     overflow: hidden;
     flex-basis: 50%;
-    min-width: 500px;
+    min-width: 450px;
     object-fit: cover;
 
   }
