@@ -449,6 +449,7 @@ img{
 .footer .row .abcd{
     position: relative;
     top:10px;
+    left:15px;
     margin-right: 20px;
     width:25px;
     height: 25px;
@@ -474,6 +475,7 @@ img{
 }
  .footer .row .col-3 .section-title{
     text-align:left;
+     margin-left:30px;
     color: #f6f4f9;
     
  }
@@ -506,6 +508,7 @@ img{
     display: block;
     margin-bottom: 10px;
     padding: 0;
+    margin-left:20px;
     text-align:left;
     color:#fff;
     font-weight: normal;
